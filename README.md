@@ -37,7 +37,7 @@
 
 ##### Clone this repository
 
- - ```git clone https://github.com/Munawar9488/SCAMER```
+ - ```https://github.com/Munawar9488/SCAMER.git```
 
 ##### Enter the directory
  - ```cd SCAMER```

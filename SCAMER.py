@@ -1,4 +1,4 @@
-# -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*- 
 # ToolName   : SCAMER
 # Author     : Munawar
 # License    : MIT

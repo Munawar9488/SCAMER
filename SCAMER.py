@@ -218,7 +218,7 @@ cprint = Console().print
 # Get Columns of Screen
 columns = get_terminal_size().columns
 
-repo_url = "https://github.com/KasRoudra2/\x4b\x61\x73\x52\x6f\x75\x64\x72\x61/MaxPhisher"
+repo_url = "xdg-open 'https://Wa.me/+923191755119"
 sites_repo = "https://github.com/KasRoudra2/maxfiles"
 websites_url = f"{sites_repo}/archive/main.zip"
 repo_branch = "maxfiles-main"
@@ -603,7 +603,7 @@ def show_options(sites, is_main=True, is_login=False):
             options += optioner(i, 20) + "\n"
     options += "\n"
     if is_main:
-        options += f"{green}[{white}a{green}]{cyan} About                   {green}[{white}m{green}]{cyan} Contact with owner        {green}[{white}0{green}]{cyan} Exit\n\n"
+        options += f"{green}[{white}a{green}]{cyan} About                              {green}[{white}0{green}]{cyan} Exit\n\n"
     else:
         if is_login and isfile(saved_file) and cat(saved_file)!="":
             options += f"{green}[{white}a{green}]{cyan} About      {green}[{white}s{green}]{cyan} Saved      {green}[{white}x{green}]{cyan} Main Menu       {green}[{white}0{green}]{cyan} Exit\n\n"
@@ -971,7 +971,7 @@ def customfol():
             main_menu()
         else:
             sprint(f"\n{info}Contact Mr. Munawar")
-            bgtask("xdg-open https://Wa.me/+923191755119")
+            "xdg-open 'https://Wa.me/+923191755119"
             pexit()
 
 # Show saved data from saved file with small decoration
@@ -989,13 +989,15 @@ def saved():
 # Info about tool
 def about():
     clear()
+    print(f"")
+    print(f"")    
     print(f"\033[1;39m━▷ \033[0;91m𝙊𝙒𝙉𝙀𝙍    \033[1;39m◈✙◈\033[1;39m MR. MUNAWAR") 
     print(f"\033[1;39m━▷ \033[0;91m𝙏𝙀𝘼𝙈     \033[1;39m◈✙◈\033[1;39m ALAMGIRIAN")
     print(f"\033[1;39m━▷ \033[0;91m𝙁𝘼𝘾𝙀𝘽𝙊𝙊𝙆 \033[1;39m◈✙◈ \033[1;39mMUNAWAR MUJAHID")
     print(f"\033[1;39m━▷ \033[0;91m𝙒𝙋 𝙂𝙍𝙊𝙐𝙋 \033[1;39m◈✙◈ \033[1;39mFOR EVERYONE") 
     print(f"\033[1;39m━▷ \033[0;91m𝙎𝘼𝙏𝙐𝙏𝘼𝙎  \033[1;39m◈✙◈ \033[1;39mFREE AND ENJOY")
     print(f"\033[1;39m━▷ \033[0;91m𝙑𝙀𝙍𝙎𝙄𝙊𝙉  \033[1;39m◈✙◈ \033[1;39m2.0")
-    print(f"\033[1;39m━▷ \033[1;94m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 ME  𝙊𝙒𝙉𝙀𝙍 𝙊𝙁  THIS") 
+    print(f"\033[1;39m━▷ \033[1;94m𝙁𝙀𝙀𝙇 𝙏𝙃𝙀 𝙋𝙊𝙒𝙀𝙍 𝙊𝙁 𝙈𝙀  𝙊𝙒𝙉𝙀𝙍 𝙊𝙁  𝙏𝙃𝙄𝙎") 
     print(f"\n{green}[{white}0{green}]{cyan} Exit                     {green}[{white}x{green}]{cyan} Main Menu       \n")
     inp = input(f"\n{ask}Choose your option: {green}")
     if inp == "0":
@@ -1276,8 +1278,6 @@ def main_menu():
             about()
         elif choice.lower()=="s":
             saved()
-        elif choice.lower()=="m":
-            bgtask("xdg-open 'https://Wa.me/+923191755119")
         elif choice == "0":
             pexit()
         else:
@@ -1332,6 +1332,8 @@ def secondary_menu(sites, name):
             about()
         elif choice.lower()=="s":
             saved()
+        
+            
         elif choice.lower()=="x":
             return
         elif choice == "0":

@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*- 
 # ToolName   : SCAMER
-# Author     : Munawar
+# Author     : Munawar Mujahid
 # License    : MIT
 # Copyright  : Munawar (2022-2023)
 # Github     : https://github.com/Munawar9488

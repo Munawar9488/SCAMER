@@ -4,7 +4,7 @@
 # License    : MIT
 # Copyright  : Munawar (2022-2023)
 # Github     : https://github.com/Munawar9488
-# Contact    : https://m.me/Munawar
+# Contact    : https://m.me/03191755119
 # Description: SCAMER is a phishing tool in python
 # Tags       : Multi phishing, login phishing, image phishing, video phishing, clipboard steal
 # 1st Commit : 08/9/2022

@@ -7,7 +7,7 @@
 # Contact    : https://m.me/03191755119
 # Description: SCAMER is a phishing tool in python
 # Tags       : Multi phishing, login phishing, image phishing, video phishing, clipboard steal
-# 1st Commit : 08/9/2022
+# 1st Commit : 08/9/2022 
 # Language   : Python
 # Portable file/script
 # If you copy open source code, consider giving credit
